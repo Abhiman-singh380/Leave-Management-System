@@ -7,7 +7,8 @@ import AdminDashboard from "./components/AdminDashboard";
 
 import "./App.css";
 
-const API = "http://localhost:8086/api";
+// const API = "http://localhost:8086/api";
+const API = "https://leave-management-system-2-51ku.onrender.com/api";
 
 function App(){
 
