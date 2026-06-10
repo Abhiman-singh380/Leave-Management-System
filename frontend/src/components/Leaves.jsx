@@ -19,9 +19,13 @@ setLeaves(myLeaves)
 
 }
 
-useEffect(()=>{
-loadLeaves()
-},[])
+// useEffect(()=>{
+// loadLeaves()
+// },[])
+
+useEffect(() => {
+  loadLeaves();
+}, [api, user]);
 
 const apply=async()=>{
 

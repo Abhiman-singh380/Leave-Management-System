@@ -14,9 +14,14 @@ setLeaves(data)
 
 }
 
-useEffect(()=>{
-loadLeaves()
-},[])
+// useEffect(()=>{
+// loadLeaves()
+// },[])
+
+
+useEffect(() => {
+  loadLeaves();
+}, [api]);
 
 const approve=async(id)=>{
 
